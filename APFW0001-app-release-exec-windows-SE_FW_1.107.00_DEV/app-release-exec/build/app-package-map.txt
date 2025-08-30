@@ -1,0 +1,23 @@
+* * * User managed MRAM locations* * * 
+0x80480000	0x88bf0	560112	unsigned	ethos-u-alif_kws.bin
+
+* * * APP Package Start Address* * * 
+
+  - Certificates for User managed images
+0x8057fc40	0x370	880	SBethos-u-alif_kws.bin.crt
+
+  - Certificates & images for Tool managed images
+
+  - APP TOC (Table of Content)
+0x8057ffb0	0x20	32	APP TOC Header
+0x8057ffd0	0x20	32	APP TOC entry for HE_Voice obj_address 0x8057fc40
+0x8057fff0	0x10	16	APP TOC Tail
+
+APP Package Summary:
+ - APP Package total size: 960 bytes
+ - APP Package Start Address: 0x8057fc40
+ - APP TOC size: 80 bytes
+ - APP TOC Start Address: 0x8057ffb0
+ - APP CRC32: 0xcc0bfc90
+
+* * * END of APP Package * * * 

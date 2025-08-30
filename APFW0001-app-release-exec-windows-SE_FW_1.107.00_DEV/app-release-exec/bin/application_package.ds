@@ -1,0 +1,4 @@
+set semihosting args ../build/images/ethos-u-alif_kws.bin 0x80480000 ../build/AppTocPackage.bin 0x8057fc40
+continue
+wait
+reset reset.hardware
