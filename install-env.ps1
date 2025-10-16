@@ -16,7 +16,8 @@ $pathsToAdd = @(
     "C:\Alif-project\tools\GnuWin32\bin",
     "C:\Alif-project\tools\ninja-win",
     "C:\Alif-project\tools\msys64\mingw64\bin",
-    "C:\Alif-project\tools\armgcc-10.3.2\bin"
+    "C:\Alif-project\tools\armgcc-10.3.2\bin",
+    "C:\Alif-project\tools\cygwin64\bin"
 )
 
 $currentPath = [System.Environment]::GetEnvironmentVariable("Path", "User")
